@@ -8,7 +8,7 @@ export default function Home() {
     return(
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div>
-                This is a Next.js application hosted on Azure Static Web Apps with hybrid rendering. The time on the server is <strong>{timeOnServer}</strong>.
+                This is a Next.js application hosted as Azure app continer service with hybrid rendering. The time on the server is <strong>{timeOnServer}</strong>.
             </div>
              <CurrentTimeFromAPI />
         </main>
