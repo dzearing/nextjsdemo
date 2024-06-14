@@ -1,0 +1,40 @@
+.root {
+  display: contents;
+}
+
+.root:hover .cell {
+  background: #ddd;
+}
+
+.cell {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.cellName {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0 16px;
+  grid-template-areas:
+    'icon text'
+    'icon subText';
+}
+
+.cellIcon {
+  grid-area: icon;
+}
+
+.cellText {
+  grid-area: text;
+  align-self: end;
+}
+
+.cellSubText {
+  grid-area: subText;
+  font-size: 13px;
+  color: #888;
+  align-self: start;
+}

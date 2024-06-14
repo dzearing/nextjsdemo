@@ -1,0 +1,30 @@
+{
+  "queries": [
+    {
+      "name": "Recommended",
+      "images": [
+        {
+          "width": 616,
+          "height": 800,
+          "url": "baby-shower-invitation-girl-pink-whimsical-color-block-1-1-eee118a2722d.webp"
+        },
+        { "width": 616, "height": 800, "url": "booklet-yellow-modern-bold-1-1-cf75d87bb502.webp" },
+        { "width": 616, "height": 800, "url": "bookmark-maker-black-vintage-retro-1-1-bc83d619a5e2.webp" },
+        { "width": 616, "height": 800, "url": "celestial-meeting-agenda-blue-modern-bold-1-1-5ddc2cff54f2.webp" },
+        { "width": 616, "height": 800, "url": "modern-flyer-brown-organic-boho-2-1-5fa42b655902.webp" },
+        { "width": 616, "height": 800, "url": "music-tutor-blue-whimsical-line-1-1-939f1ac45cdc.webp" },
+        { "width": 616, "height": 800, "url": "sale-flyer-purple-modern-bold-2-1-8308b1d3503e.webp" },
+        {
+          "width": 616,
+          "height": 800,
+          "url": "triangles-agenda.webp"
+        },
+        {
+          "width": 616,
+          "height": 800,
+          "url": "vivid-shapes-event-brochure-blue-modern-color-block-1-1-fe71d76d8e1a.webp"
+        }
+      ]
+    }
+  ]
+}

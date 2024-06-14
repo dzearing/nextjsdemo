@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  gap: 4px;
+  overflow: hidden;
+}
+
+.pivotSet {
+  display: grid;
+  grid-template-columns: auto 250px;
+  gap: 20px;
+}

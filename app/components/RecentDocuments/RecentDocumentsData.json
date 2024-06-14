@@ -1,0 +1,152 @@
+{
+  "headers": [
+    { "id": "name", "text": "Name", "type": "name" },
+    { "id": "opened", "text": "Opened", "type": "text" },
+    { "id": "owner", "text": "Owner", "type": "text" },
+    { "id": "activity", "text": "Activity", "type": "activity" }
+  ],
+  "items": [
+    {
+      "id": "0",
+      "cells": [
+        {
+          "type": "name",
+          "iconType": "docx",
+          "text": "Quantum Computing: The Future",
+          "subText": "Liam Spencer's Files"
+        },
+        { "type": "text", "text": "Wed at 4:25 PM", "utcTime": "2024-05-17T23:25:00+00:00" },
+        { "type": "text", "text": "Liam Spencer" },
+        { "type": "activity", "text": "Liam Spencer shared this in a Teams chat - Wed" }
+      ]
+    },
+    {
+      "id": "1",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "AI Revolution: A Primer", "subText": "Alice Johnson's Files" },
+        { "type": "text", "text": "Wed at 10:39 AM", "utcTime": "2024-05-17T17:39:00+00:00" },
+        { "type": "text", "text": "Alice Johnson" },
+        { "type": "activity", "text": "You edited this - Wed" }
+      ]
+    },
+    {
+      "id": "2",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "Understanding Blockchain", "subText": "Alice Johnson's Files" },
+        { "type": "text", "text": "Wed at 10:38 AM", "utcTime": "2024-05-17T17:38:00+00:00" },
+        { "type": "text", "text": "Alice Johnson" },
+        { "type": "activity", "text": "You edited this - Wed" }
+      ]
+    },
+    {
+      "id": "3",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "Green Energy Solutions", "subText": "Robert Lee's Files" },
+        { "type": "text", "text": "Tue at 4:52 PM", "utcTime": "2024-05-17T23:52:00+00:00" },
+        { "type": "text", "text": "Robert Lee" },
+        { "type": "activity", "text": "Robert Lee shared this in a Teams chat - Tue" }
+      ]
+    },
+    {
+      "id": "4",
+      "cells": [
+        {
+          "type": "name",
+          "iconType": "docx",
+          "text": "Future of Urban Mobility",
+          "subText": "Emily Carter's Files"
+        },
+        { "type": "text", "text": "Mon at 12:56 PM", "utcTime": "2024-05-17T19:56:00+00:00" },
+        { "type": "text", "text": "Emily Carter" },
+        { "type": "activity", "text": "" }
+      ]
+    },
+    {
+      "id": "5",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "Virtual Reality Advances", "subText": "Alice Johnson's Files" },
+        { "type": "text", "text": "May 7", "utcTime": "2024-05-07T07:00:00+00:00" },
+        { "type": "text", "text": "Alice Johnson" },
+        { "type": "activity", "text": "You edited this - May 7" }
+      ]
+    },
+    {
+      "id": "6",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "Machine Learning Trends", "subText": "Alice Johnson's Files" },
+        { "type": "text", "text": "May 6", "utcTime": "2024-05-06T07:00:00+00:00" },
+        { "type": "text", "text": "Alice Johnson" },
+        { "type": "activity", "text": "" }
+      ]
+    },
+    {
+      "id": "7",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "Employee Benefits Guide", "subText": "HR Department" },
+        { "type": "text", "text": "May 5", "utcTime": "2024-05-05T07:00:00+00:00" },
+        { "type": "text", "text": "Samantha Green" },
+        { "type": "activity", "text": "" }
+      ]
+    },
+    {
+      "id": "8",
+      "cells": [
+        {
+          "type": "name",
+          "iconType": "docx",
+          "text": "User Experience Guidelines",
+          "subText": "Product Design"
+        },
+        { "type": "text", "text": "May 5", "utcTime": "2024-05-05T07:00:00+00:00" },
+        { "type": "text", "text": "Jessica Brown" },
+        { "type": "activity", "text": "You edited this - Apr 23" }
+      ]
+    },
+    {
+      "id": "9",
+      "cells": [
+        {
+          "type": "name",
+          "iconType": "docx",
+          "text": "Advanced Robotics Whitepaper",
+          "subText": "Robotics Lab"
+        },
+        { "type": "text", "text": "May 1", "utcTime": "2024-05-01T07:00:00+00:00" },
+        { "type": "text", "text": "Liam Spencer" },
+        { "type": "activity", "text": "Liam Spencer mentioned you - Apr 29" }
+      ]
+    },
+    {
+      "id": "10",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "API Development Guide", "subText": "Web Team" },
+        { "type": "text", "text": "Apr 19", "utcTime": "2024-04-19T07:00:00+00:00" },
+        { "type": "text", "text": "Henry Adams" },
+        { "type": "activity", "text": "Henry Adams replied to Matt Foo's comment - Apr 16" }
+      ]
+    },
+    {
+      "id": "11",
+      "cells": [
+        {
+          "type": "name",
+          "iconType": "docx",
+          "text": "Operational Efficiency Proposal",
+          "subText": "Management Files"
+        },
+        { "type": "text", "text": "Apr 19", "utcTime": "2024-04-19T07:00:00+00:00" },
+        { "type": "text", "text": "Michael Ross" },
+        { "type": "activity", "text": "Louis Rens replied to a comment - Apr 18" }
+      ]
+    },
+    {
+      "id": "12",
+      "cells": [
+        { "type": "name", "iconType": "docx", "text": "Project Overview", "subText": "Alice Johnson's Files" },
+        { "type": "text", "text": "Apr 18", "utcTime": "2024-04-18T07:00:00+00:00" },
+        { "type": "text", "text": "Alice Johnson" },
+        { "type": "activity", "text": "" }
+      ]
+    }
+  ]
+}

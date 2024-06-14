@@ -1,0 +1,47 @@
+.root {
+  background-image: linear-gradient(rgb(210, 224, 244), rgba(210, 224, 244, 0) 25rem);
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.content {
+  padding: 1rem 4rem;
+}
+
+.section {
+  display: flex;
+  gap: 16px;
+  padding: 0 0 32px;
+}
+
+.heroButton {
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: transparent;
+  border-radius: 99px;
+  background-color: #fff;
+  color: #000;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  white-space: nowrap;
+  border: 1px solid #cacaca;
+}
+
+.heroButtonPrimary {
+  background-image: linear-gradient(128.84deg, rgb(64, 165, 238) 10%, rgb(16, 63, 145) 90%);
+  color: #fff;
+  border: none;
+}

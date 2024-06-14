@@ -1,0 +1,116 @@
+.root {
+  height: 48px;
+  transition: background-color 0.5s ease-out;
+  background-color: transparent;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: min-content auto min-content;
+  align-items: center;
+}
+
+.scrolled {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.startCell {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.centerCell {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.endCell {
+  display: flex;
+  text-align: left;
+  text-align: right;
+}
+
+.icon {
+  transition: opacity 0.9s;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  left: 14px;
+  top: 14px;
+}
+
+.iconRested {
+  opacity: 1;
+}
+
+.iconFilled {
+  opacity: 0;
+}
+
+.headerButton:hover .icon {
+  transition: opacity cubic-bezier(0.1, 0.9, 0.2, 1) 0.5s;
+  opacity: 0;
+}
+.headerButton:hover .iconFilled {
+  transition: opacity cubic-bezier(0.1, 0.9, 0.2, 1) 0.5s;
+  opacity: 1;
+}
+
+.headerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  fill: #323130;
+  border-radius: 3px;
+}
+
+.headerButton:hover {
+  transition: background-color cubic-bezier(0.1, 0.9, 0.2, 1) 0.5s;
+  background-color: rgba(0, 0, 0, 0.1);
+  fill: #0f6cbd;
+}
+
+.productLink {
+  display: flex;
+  padding: 0 12px;
+  gap: 12px;
+  height: 48px;
+  align-items: center;
+}
+
+.productIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.productTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.searchBox {
+  width: 100%;
+  max-width: 468px;
+  justify-self: center;
+}
+
+.profileCoin {
+  background-color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #323130;
+}

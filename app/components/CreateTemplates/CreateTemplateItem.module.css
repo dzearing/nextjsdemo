@@ -1,0 +1,48 @@
+.root {
+  scroll-snap-align: start;
+  display: inline-block;
+  position: relative;
+  background: #ddd;
+
+  /*
+    "contain" to see full original image with eventual empty space
+    "cover" to fill empty space with truncating
+    "fill" to stretch
+  */
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 4px;
+
+  height: 100%;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.image {
+  height: 100%;
+}
+
+.actions {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  gap: 8px;
+  justify-content: end;
+  transition: opacity 0.1s linear;
+}
+
+.root:hover .actions,
+.root:focus-within .actions {
+  opacity: 1;
+}
+
+.button {
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 2px 8px;
+  font-weight: 600;
+}

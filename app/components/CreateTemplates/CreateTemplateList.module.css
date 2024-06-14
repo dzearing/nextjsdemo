@@ -1,0 +1,18 @@
+.root {
+  position: relative;
+  padding: 16px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  width: fit-content;
+  height: 240px;
+}
+
+.leftOverflay {
+}
